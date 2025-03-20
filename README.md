@@ -26,19 +26,31 @@ Strong background in statistics, applied mathematics, and artificial intelligenc
 - Librerías/Libraries: pandas, NumPy, Matplotlib, Seaborn, SciPy, Sklearn, TensorFlow, Pytorch, GurobiPy.
 - Soft skills: liderazgo, gestión de equipos, comunicación.
 
-## Proyectos
-### [Algoritmos bioinspirados para problema Knapsack de un acuario](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/2591f1b86d274b5f1fcdcde6e99f7f701fc16277/Knapsack_Aquarium.ipynb)
-Resolví un problema de Knapsack de un acuario con algoritmos bioinspirados como Algoritmo Genético (GE), Particle Swarm Optimization (PSO) y DEAP para poder optimizar la distribuir a los diferentes peces en peceras con espacios definidos, de tal manera que no se cazaran entre ellos y tuvieran suficiente espacio para vivir.
-### [Problema de horario para el departamento de ciencias del ITESM Campus Guadalajara](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Scheduling_Science_deparment.ipynb)
-Diseñé un modelo matemático lineal eficiente para la asignación de hasta 30 profesores a 20 clases con 35 salones disponibles para el ITESM.
+## Proyectos destacados/Remarkable projects
+### [Client Prioritization with Arca Continental](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/2591f1b86d274b5f1fcdcde6e99f7f701fc16277/Knapsack_Aquarium.ipynb)
+Developed an AI model to predict the success of new products in the market based on historical sales data and
+customer demographics for Arca Continental.
 
-Minimicé el número de profesores requeridos y cumplí con las restricciones de horas de trabajo de los mismos.
+Implemented Natural Language Processing (Vector Embeddings, Jaccard Similarity) to reduce product data
+dimensionality.
 
-Utilicé Python para crear el modelo matemático fundamental y Gurobi para optimizarlo.
+Used Cosine Similarity and weighted key metrics to predict the most compatible customers for a new product.
+
+Evaluated the model with customized metrics, achieving 0.4 accuracy in predicting potential buyers.
+
+Proposed an improvement through a feedback-based system to optimize model precision.
+
+### [Sales Prediction App](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Scheduling_Science_deparment.ipynb)
+Cleaned and standardized a 7-million-entry database to ensure data accuracy and usability.
+
+Developed a Markov Chain model to calculate product purchase probabilities using client history, providing
+actionable insights for sales predictions.
+
 ### [Modelo bayesiano discreto para predicción del medio de transporte más usado](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Transporte_Preferido_Car.Rmd)
 Implementé redes bayesianas discretas en R para estudiar el comportamiento del uso de diferentes medios de transporte y sus principales razones de uso.
 
 Generé DAG's para el análisis de datos causales que permitió responder queries para la toma de decisiones en favor de descubrir las razones detrás del uso de ciertos medios de transporte.
+
 ### [Modelo bayesiano continuo para estimación de niveles del cuerpo](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Predic_NivelesCuerpo.Rmd)
 Apliqué redes bayesianas continuas para el análisis de variables continuas en el contexto de la salid y la enfermedad renal crónica (ERC).
 
