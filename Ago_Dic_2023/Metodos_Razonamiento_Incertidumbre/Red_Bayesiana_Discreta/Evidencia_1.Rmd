@@ -1,0 +1,214 @@
+---
+title: "EVIDENCIA_1"
+date: '2023-08-20'
+author: "Juan Pablo Bernal Lafarga, Luis Jesús Castillo Goyenechea, Paola Enríquez Reyes y Erik Ernesto Ocegueda Sambrano"
+output: html_document
+---
+
+Cargar base de datos y librería
+```{r}
+#install.packages("bnlearn")
+library(bnlearn)
+
+data = read.csv("enmt_unam.csv")
+head(data)
+```
+
+ Construyan una variable que represente el medio de transporte más utilizado por cada persona en la encuesta.
+```{r}
+transportes = data[,32:53]
+head(transportes)
+```
+
+```{r}
+M = apply(data[,32:53], 1, which.min)
+
+# Transponer la fila a una columna
+columna <- t(matrix(M, nrow = 1, ncol = length(M)))
+
+# Convertir la columna en un data frame (opcional)
+columna_df <- as.data.frame(columna)
+
+# Imprimir el resultado
+
+M=columna_df
+print(M)
+```
+
+EXTRA EXTRA
+```{r}
+vector = c(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0)
+cont = 0
+for(i in 1:22){
+  for(j in 1:1191){
+    if(transportes[j,i] == 1 | transportes[j,i] == 2){
+      vector[i] = vector[i] + 1
+      cont = cont + 1
+    }
+  }
+}
+
+vector
+```
+El medio de transporte más utilizado es el camión o microbús.
+
+Propongan al menos 2 estructuras diferentes de DAG que representen las relaciones de dependencia entre todas las variables de interés.
+Construyan una red bayesiana utilizando las DAG que propusieron previamente.
+ 
+```{r}
+df1 = M
+df2 = data[c("p17_1","p17_4","sexo","edad_1","escol","h21_1","Tam_loc","ing_fam")]
+
+data_dag <- cbind(df1, df2)
+colnames(data_dag) = c("M","ET","ST","S","E","NE","T","L","I")
+head(data_dag)
+```
+
+
+
+```{r}
+data_dag[data_dag$T == -1,'T'] = NA
+data_dag = na.omit(data_dag)
+data_dag[data_dag$T == 97,'T'] = NA
+data_dag = na.omit(data_dag)
+data_dag[data_dag$T == 98,'T'] = NA
+data_dag = na.omit(data_dag)
+data_dag[data_dag$T == 99,'T'] = NA
+data_dag = na.omit(data_dag)
+```
+```{r}
+data_dag[data_dag$NE == 8, "NE"] = NA
+data_dag = na.omit(data_dag)
+```
+
+```{r}
+data_dag[data_dag$I == 0, "I"] = NA
+data_dag = na.omit(data_dag)
+```
+
+
+```{r}
+unique(data_dag$M)
+unique(data_dag$ET)
+unique(data_dag$ST)
+unique(data_dag$S)
+unique(data_dag$E)
+unique(data_dag$NE)
+unique(data_dag$T)
+unique(data_dag$L)
+unique(data_dag$I)
+```
+
+
+```{r}
+data_dag$M = as.factor(data_dag$M)
+data_dag$ET = as.factor(data_dag$ET)
+data_dag$ST = as.factor(data_dag$ST)
+data_dag$S = as.factor(data_dag$S)
+data_dag$E = as.factor(data_dag$E)
+data_dag$NE = as.factor(data_dag$NE)
+data_dag$T = as.factor(data_dag$T)
+data_dag$L = as.factor(data_dag$L)
+data_dag$I = as.factor(data_dag$I)
+
+
+```
+
+
+
+```{r}
+
+
+dag1 = model2network("[E][S][NE|E:S][T|NE][L|T][I|T][M|L:I][ET|L:M][ST|M:S]")
+dag2 = model2network("[E][S][L][NE|E:S:L][T|NE:L][I|T:S][M|E:I][ET|M:L][ST|M:S:E]") 
+```
+
+¿Cuál es la red que mejor se ajuste a sus datos? ¿Por qué?
+Comparando DAGs con BIC
+```{r}
+score(dag1, data = data_dag, type = "aic")
+score(dag2, data = data_dag, type = "aic")
+```
+
+Revisen la pertinencia de las relaciones de esta DAG.
+La siguiente función da una matriz de un from to y la fuerza de su relación de dependencia en función de un p-value
+```{r}
+arc.strength(dag1,data=data_dag,criterion="x2")
+```
+```{r}
+arc.strength(dag2,data=data_dag,criterion="x2")
+```
+
+Utilicen el algoritmo hill-climbing para obtener la mejor estructura de la DAG para estos datos.
+```{r}
+best_dag = hc(data_dag)
+modelstring(best_dag)
+```
+```{r}
+score(best_dag, data = data_dag, type = "aic")
+```
+```{r}
+#install.packages("BiocManager")
+BiocManager::install("Rgraphviz")
+
+```
+¿Creen que tiene sentido esta estructura? ¿Por qué?
+La estructura no tiene sentido, pues no se están utilizando todas las variables. Es por eso por lo que para responder las queries utilizamos la dag2
+```{r}
+graphviz.plot(best_dag)
+```
+
+Respondan las queries que se les asignaron.
+
+```{r}
+bn<-bn.fit(dag2, data = data_dag)
+```
+
+Queries: 
+¿Qué probabilidad hay de las mujeres que estudian una carrera universitaria sean violentadas usando el metro?
+```{r}
+#M=2 Metro
+#ST2=2 "Inseguro"
+#S=2 "Mujer"
+#NE=5 Universidad
+
+q1 <- cpquery(bn, event = (M == "2" & ST == "2"), evidence = (S == "2" & NE == "5"),n = 10^6 )
+print(q1)
+
+```
+
+¿El nivel de escolaridad y la ocupación afectan el medio de transporte más utilizado?
+```{r}
+q2 <- cpquery(bn, event = (NE == "1" | NE == "2" | NE == "3" | NE == "4" | NE == "5") & (T == "1" | T == "2" | T == "3"|T == "4" | T == "5" | T == "6"|T == "7" | T == "8" | T == "9"| T == "10" | T == "11" | T == "12" | T == "13" | T == "14"), evidence = (M == "1"|M == "2"|M == "2"|M == "3"|M == "4"|M == "5"|M == "6"|M == "7"|M == "8"|M == "9"|M == "10"|M == "11"|M == "12"|M == "13"|M == "14"|M == "15"|M == "16"|M == "17"|M == "18"|M == "19"|M == "20"|M == "21"|M == "22"),n = 10^6 )
+print(q2)
+```
+
+
+¿Son más populares algunos métodos de transporte sobre otros en base al tamaño de una localidad?
+```{r}
+
+q3 <- cpquery(bn, event = (L == "1" | L == "2" | L == "3" | L == "4"), evidence = (M == "1"|M == "2"|M == "2"|M == "3"|M == "4"|M == "5"|M == "6"|M == "7"|M == "8"|M == "9"|M == "10"|M == "11"|M == "12"|M == "13"|M == "14"|M == "15"|M == "16"|M == "17"|M == "18"|M == "19"|M == "20"|M == "21"|M == "22"),n = 10^6 )
+print(q3)
+
+```
+
+
+¿Cuál es la probabilidad en que una persona de sexo masculino siendo profesionista use comúnmente el colectivo ?
+```{r}
+#M=5 "Colectivo"
+#S=1 "Hombre"
+#T=1 "Profesionista"
+
+q4 <- cpquery(bn, event = (M == "5"), evidence = (S == "1" & T == "1"),n = 10^6 )
+print(q4)
+```
+
+
+
+
+
+
+
+
+
+

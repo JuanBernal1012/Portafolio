@@ -1,0 +1,6 @@
+             
+000001 Asterix              Gato                 Persa                12/05/2021           estable              
+000002 Adams                Gato                 Bengala              18/08/2021           rescatado            
+000003 Beti                 Perro                York                 03/12/2021           estable              
+000004 Coki                 Perro                Pug                  06/12/2021           desaparecido         
+000005 Osito                Perro                Pomerania            06/12/2021           enfermo              
