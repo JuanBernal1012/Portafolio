@@ -41,14 +41,14 @@ dimensionality.
 - Developed a Markov Chain model to calculate product purchase probabilities using client history, providing
 actionable insights for sales predictions.
 
-### [Class Scheduling Problem](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Predic_NivelesCuerpo.Rmd)
+### [Class Scheduling Problem](https://github.com/JuanBernal1012/Portafolio/tree/main/Ene_Jun_2023/Optimizacion_Determinista)
 - Developed an efficient linear mathematical model for scheduling up to 30 professors across 20 courses and 35 classrooms for the ITESM Guadalajara Science Department.
 
 - Optimized faculty allocation by minimizing the number of required professors while ensuring compliance with workload constraints.
 
 - Implemented the model using Python and leveraged Gurobi for mathematical optimization.
 
-### [Mars Rover Exploration](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Predic_NivelesCuerpo.Rmd)
+### [Mars Rover Exploration](https://github.com/JuanBernal1012/Portafolio/tree/main/Ene_Jun_2023/Dise%C3%B1o_Agentes_Inteligentes)
 - Developed pathfinding algorithms for a Mars topographic map utilizing AI search algorithms.
 
 - Implemented search algorithms including A* and Simulated Annealing for path optimization in digitalized Mars maps.
@@ -57,7 +57,7 @@ actionable insights for sales predictions.
 
 - Visualized routes and terrain data with heatmaps for precise navigation using Matplotlib and Seaborn.
 
-### [Song Recognition System](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Predic_NivelesCuerpo.Rmd)
+### [Song Recognition System](https://github.com/josecyamuni/song-recognizer)
 - Developed a song identification system using STFT and peak detection to create constellation maps of audio.
 
 - Generated unique audio hashes for database storage and fast lookup of songs.
@@ -66,12 +66,12 @@ actionable insights for sales predictions.
 
 - Built a real-time recognition UI with Streamlit to allow users to identify songs through an interactive interface
 
-### [Discrete Bayesian Model for Predicting the Most Used Mode of Transportation](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Transporte_Preferido_Car.Rmd)
+### [Discrete Bayesian Model for Predicting the Most Used Mode of Transportation](https://github.com/JuanBernal1012/Portafolio/tree/main/Ago_Dic_2023/Metodos_Razonamiento_Incertidumbre/Red_Bayesiana_Discreta)
 - Implemented discrete Bayesian networks in R to study the usage patterns of different modes of transportation and the main reasons behind their use.
 
 - Generated DAGs for causal data analysis, enabling decision-making queries to uncover the reasons behind the preference for certain transportation modes.
 
-### [Continuous Bayesian Model for Estimating Body Levels](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Predic_NivelesCuerpo.Rmd)
+### [Continuous Bayesian Model for Estimating Body Levels](https://github.com/JuanBernal1012/Portafolio/tree/main/Ago_Dic_2023/Metodos_Razonamiento_Incertidumbre/Red_Bayesiana_Continua)
 - Applied continuous Bayesian networks to analyze continuous variables in the context of health and chronic kidney disease (CKD).
 
 - Proposed a network structure based on a DAG to represent hypothetical relationships between body variables influencing CKD.
