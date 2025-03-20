@@ -6,20 +6,24 @@
 - **Email:** juanbernal1012@hotmail.com
 - **LinkedIn:** [Juan Pablo Bernal Lafarga](www.linkedin.com/in/juan-pablo-bernal-lafarga-7b9942232)
 
-## Perfil profesional
+## Perfil profesional/Profesional Profile
 Candidato a graduar de la carrera de Ciencia de Datos y Matemáticas, apasionado de la matemática aplicada a la resolución de problemas de optimización con técnicas como algoritmos bioinspirados, redes bayesianas continuas y discretas, y optimización lineal y estocástica. Trabajo con Python y R.
 Mi razonamiento matemático y fácil disposición al trabajo en equipo son mis fortalezas.
 
-## Educación
+B.S. in Data Science and Mathematics, passionate about applied mathematics for solving optimization problems using techniques such as bio-inspired algorithms, continuous and discrete Bayesian networks, and linear and stochastic optimization. I work with Python and R. My mathematical reasoning and ease of teamwork are my strengths.
+
+## Educación/Education
 ### Instituto Tecnológico de Educación Superior de Monterrey Campus Guadalajara, Zapopan, Jalisco — Licenciatura en Ingeniería en Ciencia de Datos y Matemáticas
 **Agosto 2021 - Junio 2025**
 
 Sólida formación en estadística, matemática aplicada y algoritmos de inteligencia artificial con un enfoque especial en la modelación matemática y en la simulación computacional donde a partir de los datos y su análisis poder resolver problemas de diseño, optimización y toma de decisiones.
 
+Strong background in statistics, applied mathematics, and artificial intelligence algorithms, with a special focus on mathematical modeling and computational simulation. By analyzing data, I aim to solve design, optimization, and decision-making problems.
+
 ## Habilidades
-- Lenguajes de programación: Python, C++, SQL, R, MatLab, Mathematica, LaTeX.
-- Herramientas y tecnologías: Git, Jupyter, VS Code, Visual Studio, R-studio.
-- Librerías: pandas, NumPy, Matplotlib, Seaborn, SciPy, Sklearn, TensorFlow, Pytorch, GurobiPy.
+- Lenguajes de programación/Languages: Python, C++, SQL, R, MatLab, Mathematica, LaTeX.
+- Herramientas y tecnologías/Tools: Git, Jupyter, VS Code, Visual Studio, R-studio.
+- Librerías/Libraries: pandas, NumPy, Matplotlib, Seaborn, SciPy, Sklearn, TensorFlow, Pytorch, GurobiPy.
 - Soft skills: liderazgo, gestión de equipos, comunicación.
 
 ## Proyectos
