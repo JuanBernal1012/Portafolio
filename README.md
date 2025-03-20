@@ -1,70 +1,91 @@
 # Juan Pablo Bernal Lafarga
 
-## Datos de contacto
-- **Ubicación:** Zapopan, Jalisco
-- **Teléfono:** +52-667-514-3943
+## Contact Details
+- **Location:** Zapopan, Jalisco
+- **Phone number:** +52-667-514-3943
 - **Email:** juanbernal1012@hotmail.com
 - **LinkedIn:** [Juan Pablo Bernal Lafarga](www.linkedin.com/in/juan-pablo-bernal-lafarga-7b9942232)
 
-## Perfil profesional/Profesional Profile
-Candidato a graduar de la carrera de Ciencia de Datos y Matemáticas, apasionado de la matemática aplicada a la resolución de problemas de optimización con técnicas como algoritmos bioinspirados, redes bayesianas continuas y discretas, y optimización lineal y estocástica. Trabajo con Python y R.
-Mi razonamiento matemático y fácil disposición al trabajo en equipo son mis fortalezas.
+## Profile
+Engineer in Data Science and Mathematics, passionate about applied mathematics for solving optimization problems using techniques such as bio-inspired algorithms, continuous and discrete Bayesian networks, and linear and stochastic optimization. I work with Python and R. My mathematical reasoning and ease of teamwork are my strengths.
 
-B.S. in Data Science and Mathematics, passionate about applied mathematics for solving optimization problems using techniques such as bio-inspired algorithms, continuous and discrete Bayesian networks, and linear and stochastic optimization. I work with Python and R. My mathematical reasoning and ease of teamwork are my strengths.
-
-## Educación/Education
-### Instituto Tecnológico de Educación Superior de Monterrey Campus Guadalajara, Zapopan, Jalisco — Licenciatura en Ingeniería en Ciencia de Datos y Matemáticas
+## Education
+### Instituto Tecnológico de Educación Superior de Monterrey, Guadalajara, MX — B.S. in Data Science and Mathematics
 **Agosto 2021 - Junio 2025**
-
-Sólida formación en estadística, matemática aplicada y algoritmos de inteligencia artificial con un enfoque especial en la modelación matemática y en la simulación computacional donde a partir de los datos y su análisis poder resolver problemas de diseño, optimización y toma de decisiones.
 
 Strong background in statistics, applied mathematics, and artificial intelligence algorithms, with a special focus on mathematical modeling and computational simulation. By analyzing data, I aim to solve design, optimization, and decision-making problems.
 
-## Habilidades
+## Skills
 - Lenguajes de programación/Languages: Python, C++, SQL, R, MatLab, Mathematica, LaTeX.
 - Herramientas y tecnologías/Tools: Git, Jupyter, VS Code, Visual Studio, R-studio.
 - Librerías/Libraries: pandas, NumPy, Matplotlib, Seaborn, SciPy, Sklearn, TensorFlow, Pytorch, GurobiPy.
 - Soft skills: liderazgo, gestión de equipos, comunicación.
 
-## Proyectos destacados/Remarkable projects
+## Remarkable projects
 ### [Client Prioritization with Arca Continental](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/2591f1b86d274b5f1fcdcde6e99f7f701fc16277/Knapsack_Aquarium.ipynb)
-Developed an AI model to predict the success of new products in the market based on historical sales data and
+- Developed an AI model to predict the success of new products in the market based on historical sales data and
 customer demographics for Arca Continental.
 
-Implemented Natural Language Processing (Vector Embeddings, Jaccard Similarity) to reduce product data
+- Implemented Natural Language Processing (Vector Embeddings, Jaccard Similarity) to reduce product data
 dimensionality.
 
-Used Cosine Similarity and weighted key metrics to predict the most compatible customers for a new product.
+- Used Cosine Similarity and weighted key metrics to predict the most compatible customers for a new product.
 
-Evaluated the model with customized metrics, achieving 0.4 accuracy in predicting potential buyers.
+- Evaluated the model with customized metrics, achieving 0.4 accuracy in predicting potential buyers.
 
-Proposed an improvement through a feedback-based system to optimize model precision.
+- Proposed an improvement through a feedback-based system to optimize model precision.
 
 ### [Sales Prediction App](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Scheduling_Science_deparment.ipynb)
-Cleaned and standardized a 7-million-entry database to ensure data accuracy and usability.
+- Cleaned and standardized a 7-million-entry database to ensure data accuracy and usability.
 
-Developed a Markov Chain model to calculate product purchase probabilities using client history, providing
+- Developed a Markov Chain model to calculate product purchase probabilities using client history, providing
 actionable insights for sales predictions.
 
-### [Modelo bayesiano discreto para predicción del medio de transporte más usado](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Transporte_Preferido_Car.Rmd)
-Implementé redes bayesianas discretas en R para estudiar el comportamiento del uso de diferentes medios de transporte y sus principales razones de uso.
+### [Class Scheduling Problem](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Predic_NivelesCuerpo.Rmd)
+- Developed an efficient linear mathematical model for scheduling up to 30 professors across 20 courses and 35 classrooms for the ITESM Guadalajara Science Department.
 
-Generé DAG's para el análisis de datos causales que permitió responder queries para la toma de decisiones en favor de descubrir las razones detrás del uso de ciertos medios de transporte.
+- Optimized faculty allocation by minimizing the number of required professors while ensuring compliance with workload constraints.
 
-### [Modelo bayesiano continuo para estimación de niveles del cuerpo](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Predic_NivelesCuerpo.Rmd)
-Apliqué redes bayesianas continuas para el análisis de variables continuas en el contexto de la salid y la enfermedad renal crónica (ERC).
+- Implemented the model using Python and leveraged Gurobi for mathematical optimization.
 
-Propuse una estructura de red basada en una DAG para representar las relaciones hipotéticas entre las variables del cuerpo que influyen en la ERC.
+### [Mars Rover Exploration](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Predic_NivelesCuerpo.Rmd)
+- Developed pathfinding algorithms for a Mars topographic map utilizing AI search algorithms.
 
-Ajusté una Red Bayesiana Gaussiana (GBN) utilizando una base de datos de un hospital, y evalué la bondad de ajuste de la red mediante criterios de información bayesiana.
+- Implemented search algorithms including A* and Simulated Annealing for path optimization in digitalized Mars maps.
 
-Mi modelo revela las probabilidades relacionadas con las que ciertos niveles naturales del cuerpo dan prueba de síntomas de la ERC.
+- Conducted comparative analysis of algorithm performance to evaluate efficiency and accuracy in navigating complex terrains.
+
+- Visualized routes and terrain data with heatmaps for precise navigation using Matplotlib and Seaborn.
+
+### [Song Recognition System](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Predic_NivelesCuerpo.Rmd)
+- Developed a song identification system using STFT and peak detection to create constellation maps of audio.
+
+- Generated unique audio hashes for database storage and fast lookup of songs.
+
+- Implemented a score-based matching algorithm to compare input song hashes with the database.
+
+- Built a real-time recognition UI with Streamlit to allow users to identify songs through an interactive interface
+
+### [Discrete Bayesian Model for Predicting the Most Used Mode of Transportation](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Transporte_Preferido_Car.Rmd)
+- Implemented discrete Bayesian networks in R to study the usage patterns of different modes of transportation and the main reasons behind their use.
+
+- Generated DAGs for causal data analysis, enabling decision-making queries to uncover the reasons behind the preference for certain transportation modes.
+
+### [Continuous Bayesian Model for Estimating Body Levels](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Predic_NivelesCuerpo.Rmd)
+- Applied continuous Bayesian networks to analyze continuous variables in the context of health and chronic kidney disease (CKD).
+
+- Proposed a network structure based on a DAG to represent hypothetical relationships between body variables influencing CKD.
+
+- Adjusted a Gaussian Bayesian Network (GBN) using a hospital database and evaluated the network's goodness-of-fit through Bayesian information criteria.
+
+- My model reveals the probabilities associated with natural body levels indicating symptoms of CKD.
 
 ## Idiomas
 - Español (Nativo)
 - Inglés (B2)
 
-## Intereses
-- Música
+## Hobbies
 - Rondalla
-- Resolver problemas matemáticos
+- Solving math problems
+- Gaming
+- Puzzles
