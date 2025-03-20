@@ -1,0 +1,23 @@
+01|La casa Gucci|157|drama|4
+02|Max Steel|92|acción|3
+03|Muerte en el Nilo|127|misterio|3
+04|Stranger Things|45|misterio|1|Chapter One: The Vanishing of Will Byers|1|3
+04|Stranger Things|45|misterio|2|Chapter Two: The Weirdo on Maple Street|1|4
+04|Stranger Things|45|misterio|3|Chapter Three: Holly, Jolly|1|3
+04|Stranger Things|45|misterio|4|Chapter Four: The Body|1|5
+05|Jurassic World Dominion|147|acción|4
+06|Jurassic World (2015)|124|acción|4
+07|Asesinato en el expreso de oriente|114|misterio|4
+08|Siempre a tu lado|93|drama|4
+09|Éxodo: Dioses y reyes|150|drama|4
+10|Guasón|122|drama|4
+11|Wolverine: inmortal|126|acción|5
+12|RoboCop|121|acción|3
+13|¡Scooby!|93|misterio|3
+14|Megamente|96|acción|3
+15|The Flash|50|acción|1|Pilot|1|5
+15|The Flash|50|acción|2|Fastest Man Alive|1|5
+15|The Flash|50|acción|3|Things You Can't Outrun|1|5
+15|The Flash|50|acción|4|Going Rogue|1|5
+15|The Flash|50|acción|5|Plastique|1|5
+15|The Flash|50|acción|6|The Flash is Born|1|5
