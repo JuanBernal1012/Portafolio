@@ -22,7 +22,7 @@ Strong background in statistics, applied mathematics, and artificial intelligenc
 - Soft skills: liderazgo, gestión de equipos, comunicación.
 
 ## Remarkable projects
-### [Client Prioritization with Arca Continental](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/2591f1b86d274b5f1fcdcde6e99f7f701fc16277/Knapsack_Aquarium.ipynb)
+### [Client Prioritization with Arca Continental](https://github.com/JuanBernal1012/Portafolio/tree/main/Ago_Dic_2024/Inteligencia_Artificial_Avanzada_IA_2/Reto_TC3007C)
 - Developed an AI model to predict the success of new products in the market based on historical sales data and
 customer demographics for Arca Continental.
 
@@ -35,7 +35,7 @@ dimensionality.
 
 - Proposed an improvement through a feedback-based system to optimize model precision.
 
-### [Sales Prediction App](https://github.com/JPBL101203/Portafolio-Optimizacion/blob/e777ea55e371be4a38440bb1acef54c92abc5761/Scheduling_Science_deparment.ipynb)
+### [Sales Prediction App](https://github.com/JuanBernal1012/Portafolio/tree/main/Ago_Dic_2023/Optimizacion_Estocastica)
 - Cleaned and standardized a 7-million-entry database to ensure data accuracy and usability.
 
 - Developed a Markov Chain model to calculate product purchase probabilities using client history, providing
