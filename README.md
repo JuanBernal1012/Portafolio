@@ -16,10 +16,9 @@ Engineer in Data Science and Mathematics, passionate about applied mathematics f
 Strong background in statistics, applied mathematics, and artificial intelligence algorithms, with a special focus on mathematical modeling and computational simulation. By analyzing data, I aim to solve design, optimization, and decision-making problems.
 
 ## Skills
-- Lenguajes de programación/Languages: Python, C++, SQL, R, MatLab, Mathematica, LaTeX.
-- Herramientas y tecnologías/Tools: Git, Jupyter, VS Code, Visual Studio, R-studio.
-- Librerías/Libraries: pandas, NumPy, Matplotlib, Seaborn, SciPy, Sklearn, TensorFlow, Pytorch, GurobiPy.
-- Soft skills: liderazgo, gestión de equipos, comunicación.
+- Languages: Python, C++, SQL, R, MatLab, Mathematica, LaTeX.
+- Tools: Git, Jupyter, VS Code, Visual Studio, R-studio.
+- Libraries: pandas, NumPy, Matplotlib, Seaborn, SciPy, Sklearn, TensorFlow, Pytorch, GurobiPy.
 
 ## Remarkable projects
 ### [Client Prioritization with Arca Continental](https://github.com/JuanBernal1012/Portafolio/tree/main/Ago_Dic_2024/Inteligencia_Artificial_Avanzada_IA_2/Reto_TC3007C)
