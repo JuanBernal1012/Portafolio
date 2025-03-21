@@ -7,7 +7,7 @@
 - **LinkedIn:** [Juan Pablo Bernal Lafarga](www.linkedin.com/in/juan-pablo-bernal-lafarga-7b9942232)
 
 ## Profile
-Engineer in Data Science and Mathematics, passionate about applied mathematics for solving optimization problems using techniques such as bio-inspired algorithms, continuous and discrete Bayesian networks, and linear and stochastic optimization. I work with Python and R. My mathematical reasoning and ease of teamwork are my strengths.
+Engineer in Data Science and Mathematics, passionate about applied mathematics for solving optimization problems using techniques such as mathematical modeling, computational simulation, artificial intelligence algorithms, and decision-making models. I work with Python and R. My mathematical reasoning and ease of teamwork are my strengths.
 
 ## Education
 ### Instituto Tecnológico de Educación Superior de Monterrey, Guadalajara, MX — B.S. in Data Science and Mathematics
