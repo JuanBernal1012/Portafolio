@@ -1,7 +1,7 @@
 # Juan Pablo Bernal Lafarga
 
 ## Contact Details
-- **Location:** Zapopan, Jalisco
+- **Location:** Culiacán, Sinaloa
 - **Phone number:** +52-667-514-3943
 - **Email:** juanbernal1012@hotmail.com
 - **LinkedIn:** [Juan Pablo Bernal Lafarga](www.linkedin.com/in/juan-pablo-bernal-lafarga-7b9942232)
